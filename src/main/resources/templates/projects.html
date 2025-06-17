@@ -16,7 +16,7 @@
 
                 <div class="row gx-5 justify-content-center">
 
-                    <div class="col-lg-11 col-xl-12 col-xxl-8">
+                    <div class="col-lg-12 col-xl-12 col-xxl-10">
 
                         <!-- Project Card 1-->
                         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
@@ -25,18 +25,27 @@
                                 <div class="d-flex align-items-center">
 
                                     <div class="p-5">
-                                        <h3 class="fw-bolder text-secondary"><strong> AuthX </strong> - Advance Authentication & Authorization System </h3>
-                                        <p>AuthX is a powerful and secure RESTful authentication and Authorization API. designed for seamless integration with modern web and mobile applications. it provides a centralized identity management solution with support for token-based authentication and OAuth2 login.</p>
-                                        <p><strong class="text-primary">Tech Stack:</strong> Spring Boot, Spring Security, JWT, OAuth2(Google, Github), MySQL, Redis,</br> &nbsp;&nbsp;Spring Mail</p>
-                                          <p><strong class="text-primary">Tools Used:</strong> Swagger(UI), Postman(Testing), VScode(Development)</p>  
-                                            
-                                            
+                                        <h3 class="fw-bolder text-secondary"><strong> AuthX </strong> - Advance
+                                            Authentication & Authorization System </h3>
+                                        <p>AuthX is a powerful and secure RESTful authentication and Authorization API.
+                                            designed for seamless integration with modern web and mobile applications.
+                                            it provides a centralized identity management solution with support for
+                                            token-based authentication and OAuth2 login.</p>
+                                        <p><strong class="text-primary">Tech Stack:</strong> Spring Boot, Spring
+                                            Security, JWT, OAuth2(Google, Github), MySQL, Redis, Spring Mail</p>
+                                        <p><strong class="text-primary">Tools Used:</strong> Swagger(UI),
+                                            Postman(Testing), VScode(Development)</p>
+
+
                                         <div
                                             class="d-grid gap-2 d-sm-flex ms-2 justify-content-sm-start mt-5  justify-content-xxl-start mb-4">
                                             <a class="btn btn-primary px-3 py-2 fw-semibold  fs-6"
-                                                th:href="@{/resume}">Code &nbsp; <i class="bi bi-github fs-5"></i></a>
+                                                th:href="@{https://github.com/RustamPoonia/AuthX}">Code &nbsp; <i
+                                                    class="bi bi-github fs-5"></i></a>
                                             <a class="btn btn-outline-dark px-3 py-2 fw-semibold fs-6"
-                                                th:href="@{/projects}">Readme</a>
+                                                data-bs-toggle="modal" data-bs-target="#featureModal">Features</a>
+                                            <a class="btn btn-secondary px-3 py-2 fw-semibold fs-6"
+                                                th:href="@{#}">Swagger UI</a> 
                                         </div>
 
                                     </div>
@@ -47,26 +56,31 @@
                                             <div class="carousel-inner rounded-4 shadow"
                                                 style="width: 100%; height: 100%;">
                                                 <div class="carousel-item active h-100">
-                                                    <img src="assets/images/jwt.webp"
+                                                    <img src="assets/images/Jwt.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 1" />
                                                 </div>
                                                 <div class="carousel-item h-100">
-                                                    <img src="https://dummyimage.com/300x400/6c757d/343a40"
+                                                    <img src="assets/images/jwtToken.png"
+                                                        class="d-block w-100 h-100 object-fit-cover rounded-4"
+                                                        alt="Slide 2" />
+                                                </div>
+                                                <div class="carousel-item h-100">
+                                                    <img src="assets/images/jwttokencreate.PNG"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 2" />
                                                 </div>
                                             </div>
 
-                                        <!-- Control -->
-                                         <button class="carousel-control-prev" type="button"
+                                            <!-- Control -->
+                                            <button class="carousel-control-prev" type="button"
                                                 data-bs-target="#customCarousel" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon"></span>
                                             </button>
                                             <button class="carousel-control-next" type="button"
                                                 data-bs-target="#customCarousel" data-bs-slide="next">
                                                 <span class="carousel-control-next-icon"></span>
-                                            </button> 
+                                            </button>
                                         </div>
                                     </div>
 
@@ -80,16 +94,21 @@
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
                                         <h2 class="fw-bolder text-secondary">Smart Contact Manager</h2>
-                                        <p>Smart Contact Manager is a web-based application that allows user to securely manage their perdonal and professional contacts. Authenticated user can perform CRUD and search contacts through a simple and intrective UI.</p>
-                                        <p><strong class="text-primary">Tech Stack:</strong> Spring Boot, Spring Security, Data JPA, MVC, OAuth2(Google, Github), MySQL, Spring Mail, </p>
-                                          <p><strong class="text-primary">Frontend:</strong> Thymeleaf, TailwindCss, JavaScript(basic)</p>  
-                                        
-                                        <div
-                                            class="d-grid gap-2 d-sm-flex ms-2 mt-5  justify-content-xxl-start mb-4">
+                                        <p>Smart Contact Manager is a web-based application that allows user to securely
+                                            manage their perdonal and professional contacts. Authenticated user can
+                                            perform CRUD and search contacts through a simple and intrective UI.</p>
+                                        <p><strong class="text-primary">Tech Stack:</strong> Spring Boot, Spring
+                                            Security, Data JPA, MVC, OAuth2(Google, Github), MySQL, Spring Mail, </p>
+                                        <p><strong class="text-primary">Frontend:</strong> Thymeleaf, TailwindCss,
+                                            JavaScript(basic)</p>
+
+                                        <div class="d-grid gap-2 d-sm-flex ms-2 mt-5  justify-content-xxl-start mb-4">
                                             <a class="btn btn-primary px-3 py-2 fw-semibold  fs-6"
-                                                th:href="@{/resume}">Code &nbsp; <i class="bi bi-github fs-5"></i></a>
+                                                th:href="@{https://github.com/RustamPoonia/Smart-Contact-Manager}">Code
+                                                &nbsp; <i class="bi bi-github fs-5"></i></a>
                                             <a class="btn btn-outline-dark px-3 py-2 fw-semibold fs-6"
-                                                th:href="@{/projects}">Readme</a>
+                                                data-bs-toggle="modal" data-bs-target="#featureModal2">Features</a>
+                                           
                                         </div>
                                     </div>
                                     <!-- Carousel with fixed width (same as static image) -->
@@ -100,16 +119,21 @@
                                                 style="width: 100%; height: 100%;">
                                                
                                                 <div class="carousel-item h-100">
+                                                    <img src="assets/images/Smartcontactmanager.png"
+                                                        class="d-block w-100 h-100 object-fit-cover rounded-4"
+                                                        alt="Slide 2" />
+                                                </div>
+                                                <div class="carousel-item h-100">
                                                     <img src="assets/images/Loginpage.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 2" />
                                                 </div>
-                                                 <div class="carousel-item active h-100">
+                                                <div class="carousel-item active h-100">
                                                     <img src="assets/images/securityConfig.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 1" />
                                                 </div>
-                                                 <div class="carousel-item h-100">
+                                                <div class="carousel-item h-100">
                                                     <img src="assets/images/projectstructure.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 3" />
@@ -135,16 +159,16 @@
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
-                                        <h2 class="fw-bolder">Smart Contact Manager</h2>
+                                        <h2 class="fw-bolder text-secondary">Team Task Pro</h2>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum
                                             illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero,
                                             iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
                                         <div
-                                            class="d-grid gap-2 d-sm-flex ms-2 justify-content-sm-center mt-5  justify-content-xxl-start mb-4">
-                                           <a class="btn btn-primary px-3 py-2 fw-semibold  fs-6"
+                                            class="d-grid gap-2 d-sm-flex ms-2  mt-5  justify-content-xxl-start mb-4">
+                                            <a class="btn btn-primary px-3 py-2 fw-semibold  fs-6"
                                                 th:href="@{/resume}">Code &nbsp; <i class="bi bi-github fs-5"></i></a>
                                             <a class="btn btn-outline-dark px-3 py-2 fw-semibold fs-6"
-                                                th:href="@{/projects}">Readme</a>
+                                                data-bs-toggle="modal" data-bs-target="#featureModal2">Features</a>
                                         </div>
                                     </div>
                                     <!-- Carousel with fixed width (same as static image) -->
@@ -153,18 +177,18 @@
                                             style="width: 300px; height: 400px;">
                                             <div class="carousel-inner rounded-4 shadow"
                                                 style="width: 100%; height: 100%;">
-                                               
+
                                                 <div class="carousel-item h-100">
                                                     <img src="assets/images/Loginpage.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 2" />
                                                 </div>
-                                                 <div class="carousel-item active h-100">
+                                                <div class="carousel-item active h-100">
                                                     <img src="assets/images/securityConfig.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 1" />
                                                 </div>
-                                                 <div class="carousel-item h-100">
+                                                <div class="carousel-item h-100">
                                                     <img src="assets/images/projectstructure.png"
                                                         class="d-block w-100 h-100 object-fit-cover rounded-4"
                                                         alt="Slide 3" />
@@ -192,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -205,6 +229,109 @@
                 </div>
             </div>
         </section>
+        <!-- Feature Modal -->
+        <div class="modal fade" id="featureModal" tabindex="-1" aria-labelledby="featureModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-gradient" id="featureModalLabel">Project Features - AuthX</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>🔐 <strong>Secure Authentication:</strong> Ensures only verified users access the system
+                                via token-based login.</li>
+                            <li>🆔 <strong>Stateless Sessions:</strong> Eliminates the need for server-side session
+                                storage by using self-contained JWTs.</li>
+                            <li>📦 <strong>Payload Storage:</strong> Stores user-related data (like roles and IDs)
+                                inside the token payload for quick access.</li>
+                            <li>⏳ <strong>Token Expiry:</strong> Adds expiration time to protect against token misuse
+                                and session hijacking.</li>
+                            <li>📄 <strong>Custom Claims:</strong> Supports adding custom fields like user role, email,
+                                etc., to enhance security logic.</li>
+                            <li>📨 <strong>Bearer Token Usage:</strong> Sent via Authorization headers, enhancing API
+                                call security.</li>
+                            <li>🔄 <strong>Token Refresh:</strong> Enables issuing new tokens using refresh tokens
+                                without re-login.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Modal 2 -->
+        <div class="modal fade" id="featureModal2" tabindex="-1" aria-labelledby="featureModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-gradient" id="featureModalLabel">Project Features - Smart contact manager</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>👤 <strong>User Registration & Login:</strong> Secure sign-up and login with support for
+                                OAuth2 (Google & GitHub).</li>
+                            <li>🔐 <strong>Password Encryption:</strong> Passwords secured with Bcrypt hashing for safe
+                                authentication.</li>
+                            <li>📇 <strong>Contact Management:</strong> Users can add, edit, view, and delete personal
+                                or business contacts.</li>
+                            <li>🖼️ <strong>Contact Image Upload:</strong> Contact profile pictures are stored securely
+                                on Cloudinary.</li>
+                            <li>🔎 <strong>Search Functionality:</strong> Instantly search contacts by name, email, or
+                                mobile number.</li>
+                            <li>📄 <strong>Pagination:</strong> Contacts are paginated for better performance and
+                                usability.</li>
+                            <li>📨 <strong>Email Feature:</strong> Users can send emails directly from the web app to
+                                saved contacts.</li>
+                            <li>🎨 <strong>Tailwind CSS UI:</strong> Clean and modern responsive frontend styled using
+                                Tailwind CSS.</li>
+                            <li>🧑‍💻 <strong>Role-Based Dashboard:</strong> Admin and User roles with different access
+                                and features.</li>
+                            <li>💾 <strong>Persistent Storage:</strong> Contact data stored using Spring Data JPA and
+                                MySQL.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Modal 3-->
+        <div class="modal fade" id="featureModal3" tabindex="-1" aria-labelledby="featureModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="featureModalLabel">Project Features</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>🔐 <strong>Secure Authentication:</strong> Ensures only verified users access the system
+                                via token-based login.</li>
+                            <li>🆔 <strong>Stateless Sessions:</strong> Eliminates the need for server-side session
+                                storage by using self-contained JWTs.</li>
+                            <li>📦 <strong>Payload Storage:</strong> Stores user-related data (like roles and IDs)
+                                inside the token payload for quick access.</li>
+                            <li>⏳ <strong>Token Expiry:</strong> Adds expiration time to protect against token misuse
+                                and session hijacking.</li>
+                            <li>📄 <strong>Custom Claims:</strong> Supports adding custom fields like user role, email,
+                                etc., to enhance security logic.</li>
+                            <li>📨 <strong>Bearer Token Usage:</strong> Sent via Authorization headers, enhancing API
+                                call security.</li>
+                            <li>🔄 <strong>Token Refresh:</strong> Enables issuing new tokens using refresh tokens
+                                without re-login.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
